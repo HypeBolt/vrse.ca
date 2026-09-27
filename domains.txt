@@ -1,0 +1,8 @@
+vrse.ca - Primary
+shop.vrse.ca - Shop
+account.vrse.ca - Account center
+messages.vrse.ca - VRSE messages + SMS if phone number connected (supports masked emailing (username@pseudonym.ca)
+contacts.vrse.ca - VRSE contacts
+cloud.vrse.ca - The cloud, our file storage service, includes web directories for domains you own or have connected on your VRSE account.
+domains.vrse.ca - Domain registrar
+finance.vrse.ca - Financial planning, it helps you calculate & manage subscriptions and credit cards etc.
