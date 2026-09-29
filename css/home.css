@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 1)), url(/img/buildings-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner header {
+    height: 12%;
+    width: 100%;
+}
+
+.banner .bancontent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    height: 86%;
+    padding-bottom: 4%;
+}
+
+.bancontent .banlogo {
+    width: 24%;
+    margin-left: 4%;
+}
+
+.bancontent .banlogo img {
+    width: 100%;   
+}
+
+main {
+    height: 50vh;
+}
+
+.searchnav {
+    padding-top: 2%;
+    margin-left: 2%;
+    width: 50%;
+    height: 64%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar input {
+    width: 93%;
+    border-radius: 14px;
+    font-size: 1.8em;
+    padding: 1%;
+}
+
+.searchnav .appbtns {
+ display: flex;
+ flex-direction: row;
+ align-items: start;
+ justify-content: space-between;
+ height: 80%;
+ width: 90%;
+ margin: 2%;
+}
+
+.searchnav a {
+    text-decoration: none;
+    padding: none;
+    margin: none;
+    color: none;
+}
+
+.app {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+.app .icon {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.app:hover {
+    border: 1px solid lightgray;
+}
+
+.app .icon img {
+    width: 100%;
+}
