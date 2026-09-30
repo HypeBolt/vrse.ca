@@ -6,7 +6,7 @@ body {
 .banner {
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(/img/vrse-dots-bg.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(/img/vrse-dots-bg.png);
     background-position: top;
     background-size: cover;
 }
