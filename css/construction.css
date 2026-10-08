@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headlogo {
+    width: 100px;
+    margin-left: 5px;
+}
+
+.headlogo img {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mid {
+    padding: 24px;
+}
+
+.mid h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.mid p {
+    font-size: 1.4em;
+}
